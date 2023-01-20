@@ -14,9 +14,8 @@ body {
   background: url('/static/background.png');
   background-position: 100%;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   color: #373b64;
-  height: 100%;
 }
 
 a {
