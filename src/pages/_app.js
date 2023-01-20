@@ -1,13 +1,14 @@
 import '@/styles/globals.css';
-import { Roboto } from '@next/font/google;';
+// import { Roboto } from '@next/font/google';
+import { Inter } from '@next/font/google';
 
-const roboto = Roboto({
-  weights: [400, 500, 700],
+const inter = Inter({
+  subsets: ['latin'],
 });
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={roboto.className}>
+    <main className={inter.className}>
       <Component {...pageProps} />
     </main>
   );
